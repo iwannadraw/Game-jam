@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Player_Control : MonoBehaviour {
+public class Player_Control : MonoBehaviour
+{
 
 
     public float speed = 0.04f;
@@ -12,7 +13,7 @@ public class Player_Control : MonoBehaviour {
 
 
     // Use this for initialization
-    
+
 
     void Start()
     {
@@ -21,7 +22,8 @@ public class Player_Control : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.D)){
+        if (Input.GetKey(KeyCode.D))
+        {
             transform.Translate(Vector2.right * speed);
 
         }
@@ -43,16 +45,5 @@ public class Player_Control : MonoBehaviour {
 
     }
 
-    void Interact() {
 
-        if (Input.GetKey(KeyCode.K))
-        {
-
-            //if (GetComponentInChildren<Sound_Byte>)
-        }
-        }
-    }
-
-
-
-
+}
