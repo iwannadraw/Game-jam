@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: 4429439ab2a271446868c02e9a2a760e
-timeCreated: 1517170523
+guid: 2d1f98dc669f2f64fb1bf8d890a05a58
+timeCreated: 1517171000
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Spr_Blinking_0
-    21300002: Spr_Blinking_1
-    21300004: Spr_Blinking_2
-    21300006: Spr_Blinking_3
-    21300008: Spr_Blinking_4
-    21300010: Spr_Blinking_5
-    21300012: Spr_Blinking_6
-    21300014: Spr_Blinking_7
+    21300000: Spr_WalkingSide_0
+    21300002: Spr_WalkingSide_1
+    21300004: Spr_WalkingSide_2
+    21300006: Spr_WalkingSide_3
+    21300008: Spr_WalkingSide_4
+    21300010: Spr_WalkingSide_5
+    21300012: Spr_WalkingSide_6
+    21300014: Spr_WalkingSide_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_Blinking_0
+      name: Spr_WalkingSide_0
       rect:
         serializedVersion: 2
         x: 0
@@ -102,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_1
+      name: Spr_WalkingSide_1
       rect:
         serializedVersion: 2
         x: 110
@@ -116,7 +116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_2
+      name: Spr_WalkingSide_2
       rect:
         serializedVersion: 2
         x: 220
@@ -130,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_3
+      name: Spr_WalkingSide_3
       rect:
         serializedVersion: 2
         x: 330
@@ -144,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_4
+      name: Spr_WalkingSide_4
       rect:
         serializedVersion: 2
         x: 440
@@ -158,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_5
+      name: Spr_WalkingSide_5
       rect:
         serializedVersion: 2
         x: 550
@@ -172,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_6
+      name: Spr_WalkingSide_6
       rect:
         serializedVersion: 2
         x: 660
@@ -186,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Spr_Blinking_7
+      name: Spr_WalkingSide_7
       rect:
         serializedVersion: 2
         x: 770
