@@ -10,7 +10,7 @@ public class Player_Control : MonoBehaviour
 
     public float speed = 0.04f;
     private Rigidbody2D rb;
-
+    
 
     // Use this for initialization
 
@@ -18,6 +18,8 @@ public class Player_Control : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        
     }
 
     void Update()
