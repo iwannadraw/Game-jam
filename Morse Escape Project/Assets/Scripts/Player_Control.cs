@@ -45,12 +45,14 @@ public class Player_Control : MonoBehaviour {
 
     void Interact() {
 
-        if (Input.GetKey(KeyCode.K)) && {
+        if (Input.GetKey(KeyCode.K))
+        {
 
             //if (GetComponentInChildren<Sound_Byte>)
         }
+        }
     }
-}
+
 
 
 
