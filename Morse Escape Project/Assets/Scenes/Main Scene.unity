@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 389986452}
   m_Layer: 0
   m_Name: Spr_CarpetSmall
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 492405373}
   m_Layer: 0
   m_Name: Spr_BookShelf
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 873158153}
   m_Layer: 0
   m_Name: Spr_ChairSideView
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -862,7 +862,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 873158150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0208, y: -1.1755, z: 0.00000000157}
+  m_LocalPosition: {x: 1.78, y: -1.28, z: 0.00000000157}
   m_LocalScale: {x: 1.5492818, y: 1.3022857, z: 1.7732421}
   m_Children: []
   m_Father: {fileID: 1256444346}
@@ -1021,7 +1021,7 @@ Canvas:
   serializedVersion: 3
   m_RenderMode: 1
   m_Camera: {fileID: 715235400}
-  m_PlaneDistance: 100
+  m_PlaneDistance: 50
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1043,7 +1043,7 @@ GameObject:
   - component: {fileID: 1064652285}
   m_Layer: 0
   m_Name: Spr_BookShelfVase
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 1193248482}
   m_Layer: 0
   m_Name: Spr_Curtain (2)
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 1255582481}
   m_Layer: 0
   m_Name: Spr_ChairBackView
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1577,7 +1577,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1315974174}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.0001365901}
-  m_LocalPosition: {x: -2.54, y: -2.3544998, z: 0.0000000014865902}
+  m_LocalPosition: {x: -2.2, y: -2.3544998, z: 0}
   m_LocalScale: {x: 1.5492833, y: 1.302287, z: 1.773244}
   m_Children: []
   m_Father: {fileID: 1256444346}
@@ -1763,7 +1763,7 @@ GameObject:
   - component: {fileID: 1377921538}
   m_Layer: 0
   m_Name: Spr_ChairSideView (1)
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1775,7 +1775,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1377921536}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0208, y: -2.28, z: 0.00000000157}
+  m_LocalPosition: {x: 1.7800001, y: -2.3845, z: 0.00000000157}
   m_LocalScale: {x: 1.5492833, y: 1.302287, z: 1.773244}
   m_Children: []
   m_Father: {fileID: 1256444346}
@@ -1862,7 +1862,7 @@ GameObject:
   - component: {fileID: 1459956962}
   m_Layer: 0
   m_Name: Spr_Sink (2)
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1961,7 +1961,7 @@ GameObject:
   - component: {fileID: 1483862324}
   m_Layer: 0
   m_Name: Spr_Sink (1)
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2060,7 +2060,7 @@ GameObject:
   - component: {fileID: 1522468395}
   m_Layer: 0
   m_Name: Spr_CrumpledPaper
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2159,7 +2159,7 @@ GameObject:
   - component: {fileID: 1548766270}
   m_Layer: 0
   m_Name: Spr_TableRound
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2171,7 +2171,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1548766267}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.25, y: -1.7, z: 9.0565e-10}
+  m_LocalPosition: {x: -0.25, y: -2.01, z: 9.0565e-10}
   m_LocalScale: {x: 9.21764, y: 10.674202, z: 10.687057}
   m_Children: []
   m_Father: {fileID: 1256444346}
@@ -2258,7 +2258,7 @@ GameObject:
   - component: {fileID: 1641187117}
   m_Layer: 0
   m_Name: Spr_CarpetLarge
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2270,8 +2270,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1641187114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.22, y: -1.69, z: 0}
-  m_LocalScale: {x: 9.052591, y: 6.0947156, z: 3.9284246}
+  m_LocalPosition: {x: -0.22, y: -2.04, z: 0}
+  m_LocalScale: {x: 7.883448, y: 4.770861, z: 3.0751176}
   m_Children: []
   m_Father: {fileID: 1256444346}
   m_RootOrder: 0
@@ -2370,7 +2370,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1764940096}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: -0.0001365901}
-  m_LocalPosition: {x: -2.54, y: -1.2499999, z: 0.0000000014865902}
+  m_LocalPosition: {x: -2.2, y: -1.2499999, z: -0}
   m_LocalScale: {x: 1.5492833, y: 1.302287, z: 1.773244}
   m_Children: []
   m_Father: {fileID: 1256444346}
@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 1815670222}
   m_Layer: 0
   m_Name: Spr_TrashCan
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2698,7 +2698,7 @@ GameObject:
   - component: {fileID: 2048844090}
   m_Layer: 0
   m_Name: Spr_Computer
-  m_TagString: Untagged
+  m_TagString: InterObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
