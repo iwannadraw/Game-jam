@@ -996,6 +996,26 @@ Prefab:
       propertyPath: m_Name
       value: Spr_Sink (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 61719183906386106, guid: dcf95bc09375ceb4ca995467397cfce0,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.13753556
+      objectReference: {fileID: 0}
+    - target: {fileID: 61719183906386106, guid: dcf95bc09375ceb4ca995467397cfce0,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.38517526
+      objectReference: {fileID: 0}
+    - target: {fileID: 61719183906386106, guid: dcf95bc09375ceb4ca995467397cfce0,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: 0.026433647
+      objectReference: {fileID: 0}
+    - target: {fileID: 61719183906386106, guid: dcf95bc09375ceb4ca995467397cfce0,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.3917402
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dcf95bc09375ceb4ca995467397cfce0, type: 2}
   m_IsPrefabParent: 0
@@ -1182,11 +1202,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4610585558392778, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.57
+      value: -4.32
       objectReference: {fileID: 0}
     - target: {fileID: 4610585558392778, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 2.52
+      value: 2.51
       objectReference: {fileID: 0}
     - target: {fileID: 4610585558392778, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1216,6 +1236,34 @@ Prefab:
       propertyPath: m_Name
       value: Spr_BookShelf
       objectReference: {fileID: 0}
+    - target: {fileID: 4610585558392778, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.387103
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610585558392778, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.1512938
+      objectReference: {fileID: 0}
+    - target: {fileID: 61937149078121644, guid: 99d60e2c0456fe248b0c60151d5a70d7,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.21069753
+      objectReference: {fileID: 0}
+    - target: {fileID: 61937149078121644, guid: 99d60e2c0456fe248b0c60151d5a70d7,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.15342182
+      objectReference: {fileID: 0}
+    - target: {fileID: 61937149078121644, guid: 99d60e2c0456fe248b0c60151d5a70d7,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.010244995
+      objectReference: {fileID: 0}
+    - target: {fileID: 61937149078121644, guid: 99d60e2c0456fe248b0c60151d5a70d7,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.49371862
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 99d60e2c0456fe248b0c60151d5a70d7, type: 2}
   m_IsPrefabParent: 0
@@ -1228,11 +1276,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4963133009794586, guid: 5078a171d8d12d34685e917bfd5ce0e2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -7.83
+      value: -8.249
       objectReference: {fileID: 0}
     - target: {fileID: 4963133009794586, guid: 5078a171d8d12d34685e917bfd5ce0e2, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.13
+      value: 1.033
       objectReference: {fileID: 0}
     - target: {fileID: 4963133009794586, guid: 5078a171d8d12d34685e917bfd5ce0e2, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1262,6 +1310,26 @@ Prefab:
       propertyPath: m_Name
       value: Spr_Toilet
       objectReference: {fileID: 0}
+    - target: {fileID: 61440142469401416, guid: 5078a171d8d12d34685e917bfd5ce0e2,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.023233443
+      objectReference: {fileID: 0}
+    - target: {fileID: 61440142469401416, guid: 5078a171d8d12d34685e917bfd5ce0e2,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 0.4551478
+      objectReference: {fileID: 0}
+    - target: {fileID: 61440142469401416, guid: 5078a171d8d12d34685e917bfd5ce0e2,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: 0.033600442
+      objectReference: {fileID: 0}
+    - target: {fileID: 61440142469401416, guid: 5078a171d8d12d34685e917bfd5ce0e2,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 0.429083
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5078a171d8d12d34685e917bfd5ce0e2, type: 2}
   m_IsPrefabParent: 0
@@ -1274,11 +1342,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4165404524027580, guid: fab980ebcbbf05f4396c996825981221, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -0.22
+      value: -0.17
       objectReference: {fileID: 0}
     - target: {fileID: 4165404524027580, guid: fab980ebcbbf05f4396c996825981221, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -2.04
+      value: -2.01
       objectReference: {fileID: 0}
     - target: {fileID: 4165404524027580, guid: fab980ebcbbf05f4396c996825981221, type: 2}
       propertyPath: m_LocalPosition.z
@@ -1307,6 +1375,24 @@ Prefab:
     - target: {fileID: 1030499034151866, guid: fab980ebcbbf05f4396c996825981221, type: 2}
       propertyPath: m_Name
       value: Spr_CarpetLarge
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165404524027580, guid: fab980ebcbbf05f4396c996825981221, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4165404524027580, guid: fab980ebcbbf05f4396c996825981221, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 61377965683116590, guid: fab980ebcbbf05f4396c996825981221,
+        type: 2}
+      propertyPath: m_Offset.x
+      value: -0.569
+      objectReference: {fileID: 0}
+    - target: {fileID: 61377965683116590, guid: fab980ebcbbf05f4396c996825981221,
+        type: 2}
+      propertyPath: m_Offset.y
+      value: -0.569
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fab980ebcbbf05f4396c996825981221, type: 2}
