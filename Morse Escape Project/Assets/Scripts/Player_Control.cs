@@ -10,7 +10,8 @@ public class Player_Control : MonoBehaviour
 
     public float speed = 0.04f;
     private Rigidbody2D rb;
-    
+
+    Animator anim;      // Jess added, testing anim for movement
 
     // Use this for initialization
 
@@ -19,11 +20,23 @@ public class Player_Control : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
+        anim = GetComponent<Animator>();    // Jess added, testing anim for movement
         
     }
 
     void Update()
     {
+        if (Input.GetKey(KeyCode.D))
+            anim.Play("Char_Walk_Side");
+
+        if (Input.GetKey(KeyCode.W))
+            anim.Play("Char_Walk_Up");
+
+        if (Input.GetKey(KeyCode.S))
+            anim.Play("Char_Walk_Down");
+        
+        // Jess added, testing anim for movement
+
         if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(Vector2.right * speed);
