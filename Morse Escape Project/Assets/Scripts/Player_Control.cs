@@ -26,39 +26,94 @@ public class Player_Control : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.D))
+        Movement();  // Jess added, new void area
+    }
+
+    void Movement()
+    {
+        anim.SetFloat("speed", Mathf.Abs(Input.GetAxis("Horizontal")));
+
+        anim.SetFloat("speed", Mathf.Abs(Input.GetAxis("Vertical")));
+
+
+
+        if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            transform.Translate(Vector3.right * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
             anim.Play("Char_Walk_Side");
+        }
 
-        if (Input.GetKey(KeyCode.W))
+        if(Input.GetAxisRaw("Horizontal") < 0)
+        {
+            transform.Translate(Vector3.left * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
+        }
+
+        if(Input.GetAxisRaw("Vertical") > 0)
+        {
+            transform.Translate(Vector3.up * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
             anim.Play("Char_Walk_Up");
+        }
 
-        if (Input.GetKey(KeyCode.S))
+        if(Input.GetAxisRaw("Vertical") < 0)
+        {
+            transform.Translate(Vector3.down * speed * Time.deltaTime);
+            transform.eulerAngles = new Vector2(0, 0);
             anim.Play("Char_Walk_Down");
-        
-        // Jess added, testing anim for movement
-
-        if (Input.GetKey(KeyCode.D))
-        {
-            transform.Translate(Vector2.right * speed);
 
         }
-        if (Input.GetKey(KeyCode.A))
-        {
-            transform.Translate(Vector2.left * speed);
 
-        }
-        if (Input.GetKey(KeyCode.W))
-        {
-            transform.Translate(Vector2.up * speed);
 
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            transform.Translate(Vector2.down * speed);
+        //testing keypress
 
-        }
 
     }
+
+
+    //added Movement
+
+
+
+
+
+
+
+
+    //  if (Input.GetKey(KeyCode.D))
+    //    anim.Play("Char_Walk_Side");
+
+    //   if (Input.GetKey(KeyCode.W))
+    //      anim.Play("Char_Walk_Up");
+
+    //    if (Input.GetKey(KeyCode.S))
+    //      anim.Play("Char_Walk_Down");
+
+    // Jess added, testing anim for movement
+
+    //  if (Input.GetKey(KeyCode.D))
+    //     {
+    //       transform.Translate(Vector2.right * speed);
+
+    //     }
+    //    if (Input.GetKey(KeyCode.A))
+    //     {
+    //      transform.Translate(Vector2.left * speed);
+
+    //      }
+    //   if (Input.GetKey(KeyCode.W))
+    //      {
+    //      transform.Translate(Vector2.up * speed);
+
+    //      }
+    //  if (Input.GetKey(KeyCode.S))
+    //       {
+    //       transform.Translate(Vector2.down * speed);
+
+    //       }
+
+    //  }
 
 
 
