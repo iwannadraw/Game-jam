@@ -65,6 +65,12 @@ public class Player_Control : MonoBehaviour
 
         }
 
+        if(Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0)
+        {
+            anim.Play("Char_Idle");
+        }
+
+
 
         //testing keypress
 
